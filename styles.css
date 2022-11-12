@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* * {
+  padding: 0;
+  margin: 0;
+} */
+
+body {
+  background-color: rgb(251, 249, 245);
+  color: #0f141e;
+
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+
+  /* font: normal 16px "Roboto", sans-serif; */
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: aqua;
+}
+
+a:visited {
+  color: gray;
+}
+
+.Elon {
+  height: 300px;
+  width: 290px;
+  border-radius: 28px;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.4);
+}
+
+.info {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+}
+
+.info-text {
+  margin-left: 40px;
+}
+
+.info-text h4 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.info p {
+  color: #86898f;
+  margin: 0;
+  font-style: italic;
+  font-weight: normal;
+  text-decoration: none;
+  /* text-transform: capitalize; */
+}
+
+.info a {
+  color: #0f141e;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+/* .social {
+  background: green;
+  padding: 15px;
+  border: 5px solid black;
+  margin: 5px;
+} */
+/* .box-model > div {
+  float: left;
+  background: black;
+  height: 200px;
+  width: 25%;
+  border: 4px solid red;
+  box-sizing: border-box;
+} */
+
+.bg-yellow {
+  background: #f3f4c4;
+}
+
+.bg-green {
+  background: #befac7;
+}
+
+.bg-red {
+  background: #d1acac;
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.list {
+  padding: 0px 20px;
+}
+
+.list li {
+  color: #676768;
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+}
+
+.subtitle {
+  font-weight: bold;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  /* дісплей це щоб форма відображалась не в лінію, а в блок один після одного */
+  font-size: 14px;
+  color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  /* transparent означає зробити в даному випадку колір bg такий як вся сторінка */
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit; /*тобто шрифт який наслідує*/
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row > .form-group {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.row > .form-group:first-child {
+  margin-right: 20px;
+}
+
+.btn {
+  background: #111;
+  padding: 20px 50px;
+  color: #fff;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* position */
+
+.position {
+  position: relative;
+}
+
+.box {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  font-size: 20px;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 100%;
+  background: rgb(55, 100, 159);
+  right: 30px;
+  bottom: 30px;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 15px;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 10);
+}
+
+.box:hover {
+  opacity: 0.9;
+}
+
+.box > a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
